@@ -1,0 +1,47 @@
+.tela{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.caixa-img{
+    width: 40%;
+    height: 90%;
+    margin-top: 3%;
+}
+.imagem{
+    height: 100%;
+    width: 100%;
+}
+.buscarPersonagem-caixa-formulario{
+    width: 40%;
+    height: 90%;
+    margin-top: 3%;
+}
+.formulario{
+   font-size: 20px;
+   display: inline-block;
+   padding: 30px;
+} 
+.conteudo-formulario{
+   padding: 20%;
+   font-size: 30px;
+   font-weight: bolder;
+   text-align: center;
+
+}
+label{
+    color:  rgb(31, 13, 92);
+}
+input{
+    margin-top: 10%;
+}
+
+.botao{
+    width: 30%;
+    background: linear-gradient(90deg, rgb(223, 240, 31), rgb(2, 2, 17));
+    border: 1px solid #e3ee0aec;
+    color: white;
+    margin-top: 30px;
+}
