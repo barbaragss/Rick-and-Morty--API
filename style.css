@@ -1,0 +1,29 @@
+body{
+    background: #EFEFBB;
+	background: linear-gradient(rgb(197, 230, 236), rgb(239, 187, 230));
+	color: white;
+	margin-left: 50px;
+	font-family: rubik;
+}
+.container{
+   
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.card{
+    width: 320px;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(rgb(127, 214, 230), rgb(213, 144, 201));
+	color: white;
+    border-radius: 15px;
+}
+
+
+
+
