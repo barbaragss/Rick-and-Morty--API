@@ -1,0 +1,30 @@
+
+body{
+    background: linear-gradient(50deg, rgb(223, 240, 31), rgb(2, 2, 17));
+   
+}
+
+.container{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+	grid-gap: 20px;
+	padding-inline-start: 0;
+    margin: 5%;
+    margin-left: 10%;
+    justify-content: space-around;
+ 
+}
+.card {
+    list-style: none;
+	padding: 40px;
+	color: white;
+	text-align: center;
+	border-radius: 20px;
+	position: relative;
+    background-image: url('../imagens/thumb-1920-876589.jpg');
+    transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+
