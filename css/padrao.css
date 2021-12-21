@@ -4,12 +4,14 @@
 }
 body{
     background-color: white;
+    font-family: 'Quicksand', sans-serif; ;
  }
  nav {
-    background: linear-gradient(50deg, rgb(124, 133, 22), rgb(2, 2, 17));
+    background: linear-gradient(50deg, rgb(205, 220, 45), rgb(2, 2, 17));
  }
- nav a {
-     color: rgb(137, 235, 1);
+ 
+ .imagem-navbar{
+    height: 40px;
  }
  .menu {
     color: rgb(137, 235, 1);
